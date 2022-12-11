@@ -10,8 +10,14 @@ DISCORD_BOT_ID="your_id_here"
 CHATGPT_TOKEN="your_session_token_here"
 ```
 
-## Demo
+## Usage
 
-Invite demo bot:
+Type `>` followed by your prompt in any channel. Your conversation history is saved by your User ID.
 
-https://discord.com/oauth2/authorize?client_id=1051341069008240702&scope=bot&permissions=3072
+Example:
+
+```
+>What's Discord?
+```
+
+You can clear your history at any time by sending `>!`. History is only saved to the bot host's memory, meaning if the bot goes offline for anything the history is cleared.
